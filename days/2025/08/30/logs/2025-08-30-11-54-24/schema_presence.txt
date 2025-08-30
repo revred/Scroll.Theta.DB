@@ -1,0 +1,26 @@
+Database Schema Presence Analysis
+Started: 30/08/2025 11:54:24
+Total files analyzed: 25
+
+SUMMARY:
+  Successful: 25 (100.0%)
+  Failed: 0 (0.0%)
+
+TABLE PRESENCE:
+  underlying_minute: 25 files (100.0% of successful)
+  option_minute: 25 files (100.0% of successful)
+  chain_daily: 25 files (100.0% of successful)
+
+DETAILED ANALYSIS:
+== GLD/2023 == (5 files, 5 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== SPX/2023 == (5 files, 5 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== SPY/2023 == (5 files, 5 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== USO/2023 == (5 files, 5 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== XSP/2023 == (5 files, 5 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+
+Completed: 30/08/2025 11:54:24

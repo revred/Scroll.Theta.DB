@@ -1,0 +1,73 @@
+symbol	filename	date	metric_name	actual_value	expected_value	passed	details
+GLD	GLD.2023-06-05.sqlite	2023-06-05	DENSITY_VALIDATION	2.6102564102564102564102564103	1.0	False	Full Session: 1018/390 minutes (261.0%), deviation: 161.0%
+GLD	GLD.2023-06-05.sqlite	2023-06-05	JOIN_RATIO	0.380157170923379	0.90	False	Underlying: 1018, Options: 388, Joined: 387
+GLD	GLD.2023-06-05.sqlite	2023-06-05	SANITY_CHECK	0	0.0	True	No sanity violations found
+GLD	GLD.2023-06-05.sqlite	2023-06-05	ZERO_OPTION_DAYS	0.0	0.02	True	Found 155,891 option records
+GLD	GLD.2023-06-06.sqlite	2023-06-06	DENSITY_VALIDATION	1.6128205128205128205128205128	1.0	False	Full Session: 629/390 minutes (161.3%), deviation: 61.3%
+GLD	GLD.2023-06-06.sqlite	2023-06-06	JOIN_RATIO	0	0.90	False	Underlying: 629, Options: 0, Joined: 0
+GLD	GLD.2023-06-06.sqlite	2023-06-06	SANITY_CHECK	0	0.0	True	No sanity violations found
+GLD	GLD.2023-06-06.sqlite	2023-06-06	ZERO_OPTION_DAYS	1.0	0.02	False	Zero options found for this trading day
+GLD	GLD.2023-06-07.sqlite	2023-06-07	DENSITY_VALIDATION	1	1.0	True	Full Session: 390/390 minutes (100.0%), deviation: 0.0%
+GLD	GLD.2023-06-07.sqlite	2023-06-07	JOIN_RATIO	0	0.90	False	Underlying: 390, Options: 0, Joined: 0
+GLD	GLD.2023-06-07.sqlite	2023-06-07	SANITY_CHECK	0	0.0	True	No sanity violations found
+GLD	GLD.2023-06-07.sqlite	2023-06-07	ZERO_OPTION_DAYS	1.0	0.02	False	Zero options found for this trading day
+GLD	GLD.2023-06-08.sqlite	2023-06-08	DENSITY_VALIDATION	1	1.0	True	Full Session: 390/390 minutes (100.0%), deviation: 0.0%
+GLD	GLD.2023-06-08.sqlite	2023-06-08	JOIN_RATIO	0	0.90	False	Underlying: 390, Options: 0, Joined: 0
+GLD	GLD.2023-06-08.sqlite	2023-06-08	SANITY_CHECK	0	0.0	True	No sanity violations found
+GLD	GLD.2023-06-08.sqlite	2023-06-08	ZERO_OPTION_DAYS	1.0	0.02	False	Zero options found for this trading day
+GLD	GLD.2023-06-09.sqlite	2023-06-09	DENSITY_VALIDATION	1	1.0	True	Full Session: 390/390 minutes (100.0%), deviation: 0.0%
+GLD	GLD.2023-06-09.sqlite	2023-06-09	JOIN_RATIO	0	0.90	False	Underlying: 390, Options: 0, Joined: 0
+GLD	GLD.2023-06-09.sqlite	2023-06-09	SANITY_CHECK	0	0.0	True	No sanity violations found
+GLD	GLD.2023-06-09.sqlite	2023-06-09	ZERO_OPTION_DAYS	1.0	0.02	False	Zero options found for this trading day
+SPX	SPX.2023-06-05.sqlite	2023-06-05	DENSITY_VALIDATION	3.6179487179487179487179487179	1.0	False	Full Session: 1411/390 minutes (361.8%), deviation: 261.8%
+SPX	SPX.2023-06-05.sqlite	2023-06-05	JOIN_RATIO	0.44578313253012	0.90	False	Underlying: 1411, Options: 630, Joined: 629
+SPX	SPX.2023-06-05.sqlite	2023-06-05	SANITY_CHECK	0	0.0	True	No sanity violations found
+SPX	SPX.2023-06-05.sqlite	2023-06-05	ZERO_OPTION_DAYS	0.0	0.02	True	Found 300,403 option records
+SPX	SPX.2023-06-06.sqlite	2023-06-06	DENSITY_VALIDATION	3.6179487179487179487179487179	1.0	False	Full Session: 1411/390 minutes (361.8%), deviation: 261.8%
+SPX	SPX.2023-06-06.sqlite	2023-06-06	JOIN_RATIO	0.44578313253012	0.90	False	Underlying: 1411, Options: 630, Joined: 629
+SPX	SPX.2023-06-06.sqlite	2023-06-06	SANITY_CHECK	0	0.0	True	No sanity violations found
+SPX	SPX.2023-06-06.sqlite	2023-06-06	ZERO_OPTION_DAYS	0.0	0.02	True	Found 300,765 option records
+SPX	SPX.2023-06-07.sqlite	2023-06-07	DENSITY_VALIDATION	2	1.0	False	Full Session: 780/390 minutes (200.0%), deviation: 100.0%
+SPX	SPX.2023-06-07.sqlite	2023-06-07	JOIN_RATIO	0.498717948717949	0.90	False	Underlying: 780, Options: 390, Joined: 389
+SPX	SPX.2023-06-07.sqlite	2023-06-07	SANITY_CHECK	0	0.0	True	No sanity violations found
+SPX	SPX.2023-06-07.sqlite	2023-06-07	ZERO_OPTION_DAYS	0.0	0.02	True	Found 62,400 option records
+SPX	SPX.2023-06-08.sqlite	2023-06-08	DENSITY_VALIDATION	2	1.0	False	Full Session: 780/390 minutes (200.0%), deviation: 100.0%
+SPX	SPX.2023-06-08.sqlite	2023-06-08	JOIN_RATIO	0.498717948717949	0.90	False	Underlying: 780, Options: 390, Joined: 389
+SPX	SPX.2023-06-08.sqlite	2023-06-08	SANITY_CHECK	0	0.0	True	No sanity violations found
+SPX	SPX.2023-06-08.sqlite	2023-06-08	ZERO_OPTION_DAYS	0.0	0.02	True	Found 62,400 option records
+SPX	SPX.2023-06-09.sqlite	2023-06-09	DENSITY_VALIDATION	2	1.0	False	Full Session: 780/390 minutes (200.0%), deviation: 100.0%
+SPX	SPX.2023-06-09.sqlite	2023-06-09	JOIN_RATIO	0.498717948717949	0.90	False	Underlying: 780, Options: 390, Joined: 389
+SPX	SPX.2023-06-09.sqlite	2023-06-09	SANITY_CHECK	0	0.0	True	No sanity violations found
+SPX	SPX.2023-06-09.sqlite	2023-06-09	ZERO_OPTION_DAYS	0.0	0.02	True	Found 62,400 option records
+SPY	SPY.2023-06-05.sqlite	2023-06-05	DENSITY_VALIDATION	1.6153846153846153846153846154	1.0	False	Full Session: 630/390 minutes (161.5%), deviation: 61.5%
+SPY	SPY.2023-06-05.sqlite	2023-06-05	JOIN_RATIO	0	0.90	False	Underlying: 630, Options: 0, Joined: 0
+SPY	SPY.2023-06-05.sqlite	2023-06-05	SANITY_CHECK	0	0.0	True	No sanity violations found
+SPY	SPY.2023-06-05.sqlite	2023-06-05	ZERO_OPTION_DAYS	1.0	0.02	False	Zero options found for this trading day
+SPY	SPY.2023-06-06.sqlite	2023-06-06	DENSITY_VALIDATION	1.6153846153846153846153846154	1.0	False	Full Session: 630/390 minutes (161.5%), deviation: 61.5%
+SPY	SPY.2023-06-06.sqlite	2023-06-06	JOIN_RATIO	0	0.90	False	Underlying: 630, Options: 0, Joined: 0
+SPY	SPY.2023-06-06.sqlite	2023-06-06	SANITY_CHECK	0	0.0	True	No sanity violations found
+SPY	SPY.2023-06-06.sqlite	2023-06-06	ZERO_OPTION_DAYS	1.0	0.02	False	Zero options found for this trading day
+SPY	SPY.2023-06-07.sqlite	2023-06-07	DENSITY_VALIDATION	1	1.0	True	Full Session: 390/390 minutes (100.0%), deviation: 0.0%
+SPY	SPY.2023-06-07.sqlite	2023-06-07	JOIN_RATIO	0	0.90	False	Underlying: 390, Options: 0, Joined: 0
+SPY	SPY.2023-06-07.sqlite	2023-06-07	SANITY_CHECK	0	0.0	True	No sanity violations found
+SPY	SPY.2023-06-07.sqlite	2023-06-07	ZERO_OPTION_DAYS	1.0	0.02	False	Zero options found for this trading day
+SPY	SPY.2023-06-08.sqlite	2023-06-08	DENSITY_VALIDATION	1	1.0	True	Full Session: 390/390 minutes (100.0%), deviation: 0.0%
+SPY	SPY.2023-06-08.sqlite	2023-06-08	JOIN_RATIO	0	0.90	False	Underlying: 390, Options: 0, Joined: 0
+SPY	SPY.2023-06-08.sqlite	2023-06-08	SANITY_CHECK	0	0.0	True	No sanity violations found
+SPY	SPY.2023-06-08.sqlite	2023-06-08	ZERO_OPTION_DAYS	1.0	0.02	False	Zero options found for this trading day
+SPY	SPY.2023-06-09.sqlite	2023-06-09	DENSITY_VALIDATION	1	1.0	True	Full Session: 390/390 minutes (100.0%), deviation: 0.0%
+SPY	SPY.2023-06-09.sqlite	2023-06-09	JOIN_RATIO	0	0.90	False	Underlying: 390, Options: 0, Joined: 0
+SPY	SPY.2023-06-09.sqlite	2023-06-09	SANITY_CHECK	0	0.0	True	No sanity violations found
+SPY	SPY.2023-06-09.sqlite	2023-06-09	ZERO_OPTION_DAYS	1.0	0.02	False	Zero options found for this trading day
+USO	USO.2023-06-05.sqlite	2023-06-05	DENSITY_VALIDATION	1.9846153846153846153846153846	1.0	False	Full Session: 774/390 minutes (198.5%), deviation: 98.5%
+USO	USO.2023-06-05.sqlite	2023-06-05	JOIN_RATIO	0.496124031007752	0.90	False	Underlying: 774, Options: 388, Joined: 384
+USO	USO.2023-06-05.sqlite	2023-06-05	SANITY_CHECK	0	0.0	True	No sanity violations found
+USO	USO.2023-06-05.sqlite	2023-06-05	ZERO_OPTION_DAYS	0.0	0.02	True	Found 88,881 option records
+USO	USO.2023-06-06.sqlite	2023-06-06	DENSITY_VALIDATION	0.9923076923076923076923076923	1.0	True	Full Session: 387/390 minutes (99.2%), deviation: 0.8%
+USO	USO.2023-06-06.sqlite	2023-06-06	JOIN_RATIO	0	0.90	False	Underlying: 387, Options: 0, Joined: 0
+USO	USO.2023-06-06.sqlite	2023-06-06	SANITY_CHECK	0	0.0	True	No sanity violations found
+USO	USO.2023-06-06.sqlite	2023-06-06	ZERO_OPTION_DAYS	1.0	0.02	False	Zero options found for this trading day
+XSP	XSP.2023-06-05.sqlite	2023-06-05	DENSITY_VALIDATION	0	1.0	False	Full Session: 0/390 minutes (0.0%), deviation: 100.0%
+XSP	XSP.2023-06-05.sqlite	2023-06-05	JOIN_RATIO	0	0.90	False	Underlying: 0, Options: 0, Joined: 0
+XSP	XSP.2023-06-05.sqlite	2023-06-05	SANITY_CHECK	0	0.0	True	No sanity violations found
+XSP	XSP.2023-06-05.sqlite	2023-06-05	ZERO_OPTION_DAYS	1.0	0.02	False	Zero options found for this trading day

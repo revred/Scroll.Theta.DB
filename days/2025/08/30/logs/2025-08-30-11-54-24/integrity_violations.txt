@@ -1,0 +1,15 @@
+Data Integrity Check Report
+Started: 30/08/2025 11:54:26
+Checking for: duplicate primary keys, monotonic timestamps, null values, extreme timestamps
+
+ISSUE SUMMARY BY TYPE:
+  No integrity issues found! All data passes integrity checks.
+
+ISSUE SUMMARY BY SYMBOL:
+  No symbol-specific issues found.
+
+DETAILED INTEGRITY ISSUES (0 total):
+
+Completed: 30/08/2025 11:54:26
+Total files analyzed: 25
+Files with integrity issues: 0

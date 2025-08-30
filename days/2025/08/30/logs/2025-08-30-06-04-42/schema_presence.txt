@@ -1,0 +1,68 @@
+Database Schema Presence Analysis
+Started: 30/08/2025 06:05:16
+Total files analyzed: 4,027
+
+SUMMARY:
+  Successful: 4,027 (100.0%)
+  Failed: 0 (0.0%)
+
+TABLE PRESENCE:
+  underlying_minute: 4,027 files (100.0% of successful)
+  option_minute: 4,027 files (100.0% of successful)
+  chain_daily: 4,027 files (100.0% of successful)
+
+DETAILED ANALYSIS:
+== GLD/2023 == (147 files, 147 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== GLD/2024 == (252 files, 252 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== GLD/2025 == (20 files, 20 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== SPX/2018 == (251 files, 251 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== SPX/2019 == (252 files, 252 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== SPX/2020 == (253 files, 253 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== SPX/2021 == (252 files, 252 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== SPX/2022 == (251 files, 251 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== SPX/2023 == (358 files, 358 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== SPX/2024 == (166 files, 166 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== SPX/2025 == (164 files, 164 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== SPY/2023 == (193 files, 193 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== SPY/2024 == (299 files, 299 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== SPY/2025 == (178 files, 178 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== USO/2024 == (1 files, 1 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== USO/2025 == (3 files, 3 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== VIX/2018 == (239 files, 239 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== VIX/2019 == (145 files, 145 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== VIX/2020 == (126 files, 126 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== VIX/2021 == (126 files, 126 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== VIX/2022 == (124 files, 124 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== VIX/2023 == (129 files, 129 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== VIX/2024 == (23 files, 23 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== VIX/2025 == (26 files, 26 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== XSP/2024 == (2 files, 2 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+== XSP/2025 == (47 files, 47 successful)
+  Tables: chain_daily, option_minute, underlying_minute
+
+Completed: 30/08/2025 06:05:16

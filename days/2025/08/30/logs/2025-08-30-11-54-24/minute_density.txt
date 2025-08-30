@@ -1,0 +1,46 @@
+Calendar-Aware Minute Density Analysis Report (Per RevisedPlan.md)
+Started: 30/08/2025 11:54:26
+Uses NYSE/NASDAQ trading calendar:
+  - Full sessions: 390 minutes (9:30 AM - 4:00 PM ET)
+  - Early close: 210 minutes (9:30 AM - 1:00 PM ET)
+  - Market closed: 0 minutes (holidays/weekends)
+
+CALENDAR-AWARE SUMMARY BY SYMBOL:
+  GLD: 11 trading days, 9 proper density (81.8%), 0 early close days, avg 327 min/trading day
+  SPX: 11 trading days, 10 proper density (90.9%), 0 early close days, avg 363 min/trading day
+  SPY: 5 trading days, 5 proper density (100.0%), 0 early close days, avg 486 min/trading day
+  USO: 11 trading days, 9 proper density (81.8%), 0 early close days, avg 282 min/trading day
+
+CALENDAR-AWARE DENSITY ISSUES:
+  GLD 2076-11-06 (underlying_minute): Only 327/390 minutes (83.8%) - Expected: Full Session - GLD.2023-06-05.sqlite
+  GLD 2076-11-07 (underlying_minute): Data found on closed market day (Market Closed) - Expected: Market Closed - GLD.2023-06-05.sqlite
+  GLD 2076-11-08 (underlying_minute): Data found on closed market day (Market Closed) - Expected: Market Closed - GLD.2023-06-06.sqlite
+  GLD 2076-11-09 (underlying_minute): Only 61/390 minutes (15.6%) - Expected: Full Session - GLD.2023-06-06.sqlite
+  GLD 2076-11-10 (underlying_minute): Only 329/390 minutes (84.4%) - Expected: Full Session - GLD.2023-06-07.sqlite
+  GLD 2076-11-11 (underlying_minute): Only 61/390 minutes (15.6%) - Expected: Full Session - GLD.2023-06-07.sqlite
+  GLD 2076-11-12 (underlying_minute): Only 329/390 minutes (84.4%) - Expected: Full Session - GLD.2023-06-08.sqlite
+  GLD 2076-11-13 (underlying_minute): Only 61/390 minutes (15.6%) - Expected: Full Session - GLD.2023-06-08.sqlite
+  GLD 2076-11-14 (underlying_minute): Data found on closed market day (Market Closed) - Expected: Market Closed - GLD.2023-06-09.sqlite
+  GLD 2076-11-15 (underlying_minute): Data found on closed market day (Market Closed) - Expected: Market Closed - GLD.2023-06-09.sqlite
+  SPX 2076-11-07 (underlying_minute): Data found on closed market day (Market Closed) - Expected: Market Closed - SPX.2023-06-05.sqlite
+  SPX 2076-11-08 (underlying_minute): Data found on closed market day (Market Closed) - Expected: Market Closed - SPX.2023-06-06.sqlite
+  SPX 2076-11-09 (underlying_minute): Only 61/390 minutes (15.6%) - Expected: Full Session - SPX.2023-06-06.sqlite
+  SPX 2076-11-10 (underlying_minute): Only 329/390 minutes (84.4%) - Expected: Full Session - SPX.2023-06-07.sqlite
+  SPX 2076-11-11 (underlying_minute): Only 61/390 minutes (15.6%) - Expected: Full Session - SPX.2023-06-07.sqlite
+  SPX 2076-11-12 (underlying_minute): Only 329/390 minutes (84.4%) - Expected: Full Session - SPX.2023-06-08.sqlite
+  SPX 2076-11-13 (underlying_minute): Only 61/390 minutes (15.6%) - Expected: Full Session - SPX.2023-06-08.sqlite
+  SPX 2076-11-14 (underlying_minute): Data found on closed market day (Market Closed) - Expected: Market Closed - SPX.2023-06-09.sqlite
+  SPX 2076-11-15 (underlying_minute): Data found on closed market day (Market Closed) - Expected: Market Closed - SPX.2023-06-09.sqlite
+  USO 2076-11-06 (underlying_minute): Only 327/390 minutes (83.8%) - Expected: Full Session - USO.2023-06-05.sqlite
+  USO 2076-11-07 (underlying_minute): Data found on closed market day (Market Closed) - Expected: Market Closed - USO.2023-06-05.sqlite
+  USO 2076-11-08 (underlying_minute): Data found on closed market day (Market Closed) - Expected: Market Closed - USO.2023-06-06.sqlite
+  USO 2076-11-09 (underlying_minute): Only 61/390 minutes (15.6%) - Expected: Full Session - USO.2023-06-06.sqlite
+  USO 2076-11-10 (underlying_minute): Only 329/390 minutes (84.4%) - Expected: Full Session - USO.2023-06-07.sqlite
+  USO 2076-11-11 (underlying_minute): Only 61/390 minutes (15.6%) - Expected: Full Session - USO.2023-06-07.sqlite
+  USO 2076-11-12 (underlying_minute): Only 329/390 minutes (84.4%) - Expected: Full Session - USO.2023-06-08.sqlite
+  USO 2076-11-13 (underlying_minute): Only 61/390 minutes (15.6%) - Expected: Full Session - USO.2023-06-08.sqlite
+  USO 2076-11-14 (underlying_minute): Data found on closed market day (Market Closed) - Expected: Market Closed - USO.2023-06-09.sqlite
+  USO 2076-11-15 (underlying_minute): Data found on closed market day (Market Closed) - Expected: Market Closed - USO.2023-06-09.sqlite
+
+Completed: 30/08/2025 11:54:26
+Total files analyzed: 25

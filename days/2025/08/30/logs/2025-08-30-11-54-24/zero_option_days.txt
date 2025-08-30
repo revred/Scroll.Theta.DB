@@ -1,0 +1,79 @@
+Zero Option Days Analysis Report
+Started: 30/08/2025 11:54:26
+Identifying ETL misses where underlying data exists but option data is missing
+
+SUMMARY BY SYMBOL:
+  GLD:
+    Files: 5
+    Underlying days: 15 (4,375 records)
+    Option days: 5 (710,526 records)
+    Zero-option days: 10 (66.7% miss rate)
+    Coverage: 33.3%
+  SPX:
+    Files: 5
+    Underlying days: 15 (5,162 records)
+    Option days: 5 (1,329,024 records)
+    Zero-option days: 10 (66.7% miss rate)
+    Coverage: 33.3%
+  SPY:
+    Files: 5
+    Underlying days: 5 (2,430 records)
+    Option days: 0 (0 records)
+    Zero-option days: 5 (100.0% miss rate)
+    Coverage: 0.0%
+  USO:
+    Files: 5
+    Underlying days: 15 (3,884 records)
+    Option days: 5 (408,014 records)
+    Zero-option days: 10 (66.7% miss rate)
+    Coverage: 33.3%
+  XSP:
+    Files: 5
+    Underlying days: 0 (0 records)
+    Option days: 0 (0 records)
+    Zero-option days: 0 (0.0% miss rate)
+    Coverage: 0.0%
+
+ZERO OPTION DAYS DETAIL (35 total):
+  GLD: 10 zero-option days
+    2076-11-06 - GLD.2023-06-05.sqlite
+    2076-11-07 - GLD.2023-06-05.sqlite
+    2076-11-08 - GLD.2023-06-06.sqlite
+    2076-11-09 - GLD.2023-06-06.sqlite
+    2076-11-10 - GLD.2023-06-07.sqlite
+    2076-11-11 - GLD.2023-06-07.sqlite
+    2076-11-12 - GLD.2023-06-08.sqlite
+    2076-11-13 - GLD.2023-06-08.sqlite
+    2076-11-14 - GLD.2023-06-09.sqlite
+    2076-11-15 - GLD.2023-06-09.sqlite
+  SPX: 10 zero-option days
+    2076-11-06 - SPX.2023-06-05.sqlite
+    2076-11-07 - SPX.2023-06-05.sqlite
+    2076-11-08 - SPX.2023-06-06.sqlite
+    2076-11-09 - SPX.2023-06-06.sqlite
+    2076-11-10 - SPX.2023-06-07.sqlite
+    2076-11-11 - SPX.2023-06-07.sqlite
+    2076-11-12 - SPX.2023-06-08.sqlite
+    2076-11-13 - SPX.2023-06-08.sqlite
+    2076-11-14 - SPX.2023-06-09.sqlite
+    2076-11-15 - SPX.2023-06-09.sqlite
+  SPY: 5 zero-option days
+    2023-06-05 - SPY.2023-06-05.sqlite
+    2023-06-06 - SPY.2023-06-06.sqlite
+    2023-06-07 - SPY.2023-06-07.sqlite
+    2023-06-08 - SPY.2023-06-08.sqlite
+    2023-06-09 - SPY.2023-06-09.sqlite
+  USO: 10 zero-option days
+    2076-11-06 - USO.2023-06-05.sqlite
+    2076-11-07 - USO.2023-06-05.sqlite
+    2076-11-08 - USO.2023-06-06.sqlite
+    2076-11-09 - USO.2023-06-06.sqlite
+    2076-11-10 - USO.2023-06-07.sqlite
+    2076-11-11 - USO.2023-06-07.sqlite
+    2076-11-12 - USO.2023-06-08.sqlite
+    2076-11-13 - USO.2023-06-08.sqlite
+    2076-11-14 - USO.2023-06-09.sqlite
+    2076-11-15 - USO.2023-06-09.sqlite
+
+Completed: 30/08/2025 11:54:26
+Total files analyzed: 25

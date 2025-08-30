@@ -1,0 +1,5 @@
+symbol	file	table	violation_type	count	details
+GLD	GLD.2023-06-05.sqlite	underlying_minute	NON_POSITIVE_PRICE	4	Min price: 0.00
+SPX	SPX.2023-06-05.sqlite	option_minute	CRITICAL_IV_VIOLATION_PER_REVISEDPLAN	246	IV range: 0.0000 - 0.0000, avg: 0.0000, sentinel values: 0. Per RevisedPlan.md: FAIL on any IV ≤0.01, >5.0, or sentinel 214748.3646
+SPX	SPX.2023-06-06.sqlite	option_minute	CRITICAL_IV_VIOLATION_PER_REVISEDPLAN	212	IV range: 0.0000 - 0.0000, avg: 0.0000, sentinel values: 0. Per RevisedPlan.md: FAIL on any IV ≤0.01, >5.0, or sentinel 214748.3646
+SPY	SPY.2023-06-05.sqlite	underlying_minute	NON_POSITIVE_PRICE	4	Min price: 0.00
