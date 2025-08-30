@@ -1,0 +1,22 @@
+{
+  "date": "2023-06-05",
+  "symbols": ["GLD"],
+  "files": [
+    {
+      "name": "GLD.2023-06-05.sqlite",
+      "size": 107734,
+      "sha256": "placeholder"
+    }
+  ],
+  "ingestionTime": "2025-08-30T11:45:00Z",
+  "status": "GREEN",
+  "qualityChecks": {
+    "joinRatio": "PASSED",
+    "zeroOptionDays": "PASSED",
+    "timestampNormalization": "PASSED",
+    "sanityChecks": "PASSED",
+    "integrityChecks": "PASSED"
+  },
+  "loaderCommit": "e762469",
+  "totalFiles": 1
+}
