@@ -16,7 +16,7 @@
       "sha256": "459c8d3f71c21acd2cff63f9981618c1085880d02d52690681d48ad9e5961c60"
     }
   ],
-  "ingestionTime": "2025-08-30T10:49:54Z",
+  "ingestionTime": "2025-08-30T10:53:54Z",
   "status": "GREEN",
   "qualityChecks": {
     "joinRatio": "PASSED",
