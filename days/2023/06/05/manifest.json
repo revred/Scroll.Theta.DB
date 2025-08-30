@@ -1,14 +1,22 @@
 {
   "date": "2023-06-05",
-  "symbols": ["GLD"],
+  "symbols": [
+    "SPX",
+    "GLD"
+  ],
   "files": [
     {
       "name": "GLD.2023-06-05.sqlite",
-      "size": 107734,
-      "sha256": "placeholder"
+      "size": 28868608,
+      "sha256": "b6e8246bbf5dc0c508ccf7ec4f5bfddff442b8098e66501d2f1e2c9a5c470848"
+    },
+    {
+      "name": "SPX.2023-06-05.sqlite",
+      "size": 53334016,
+      "sha256": "459c8d3f71c21acd2cff63f9981618c1085880d02d52690681d48ad9e5961c60"
     }
   ],
-  "ingestionTime": "2025-08-30T11:45:00Z",
+  "ingestionTime": "2025-08-30T10:49:54Z",
   "status": "GREEN",
   "qualityChecks": {
     "joinRatio": "PASSED",
@@ -17,6 +25,6 @@
     "sanityChecks": "PASSED",
     "integrityChecks": "PASSED"
   },
-  "loaderCommit": "e762469",
-  "totalFiles": 1
+  "loaderCommit": "e762469a91ee384f9923ea9c059024abfba87ebf",
+  "totalFiles": 2
 }
