@@ -2,7 +2,10 @@
   "date": "2023-06-05",
   "symbols": [
     "SPX",
-    "GLD"
+    "GLD",
+    "SPY",
+    "USO",
+    "XSP"
   ],
   "files": [
     {
@@ -14,9 +17,24 @@
       "name": "SPX.2023-06-05.sqlite",
       "size": 53334016,
       "sha256": "459c8d3f71c21acd2cff63f9981618c1085880d02d52690681d48ad9e5961c60"
+    },
+    {
+      "name": "SPY.2023-06-05.sqlite",
+      "size": 86016,
+      "sha256": "ffb033abfbfadb5644bbd886f18811f2075e7505ff5109513a156ac481b370bd"
+    },
+    {
+      "name": "USO.2023-06-05.sqlite",
+      "size": 16330752,
+      "sha256": "4d6d5e5bf110a3d81453962e48d786351923eae948d05926097d4decee783b14"
+    },
+    {
+      "name": "XSP.2023-06-05.sqlite",
+      "size": 28672,
+      "sha256": "feb6a189b7e2f82a9ffa0600d0dc10ffb8a22e1bddddcf72a100d063f146a7ff"
     }
   ],
-  "ingestionTime": "2025-08-30T10:56:56Z",
+  "ingestionTime": "2025-08-30T11:00:37Z",
   "status": "GREEN",
   "qualityChecks": {
     "joinRatio": "PASSED",
@@ -26,5 +44,5 @@
     "integrityChecks": "PASSED"
   },
   "loaderCommit": "e762469a91ee384f9923ea9c059024abfba87ebf",
-  "totalFiles": 2
+  "totalFiles": 5
 }
