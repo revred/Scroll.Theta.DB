@@ -1,0 +1,48 @@
+{
+  "date": "2023-06-09",
+  "symbols": [
+    "SPX",
+    "GLD",
+    "SPY",
+    "USO",
+    "XSP"
+  ],
+  "files": [
+    {
+      "name": "GLD.2023-06-09.sqlite",
+      "size": 22384640,
+      "sha256": "8e715ba7d062f749580e02a3503194cb86cd2e75a793b32b34b6d994cab8e977"
+    },
+    {
+      "name": "SPX.2023-06-09.sqlite",
+      "size": 42795008,
+      "sha256": "46e42470788c8c6f5547addc17ca040847f3f885e1843dd4ba957eb9cc49f488"
+    },
+    {
+      "name": "SPY.2023-06-09.sqlite",
+      "size": 61440,
+      "sha256": "c266dd903a864db1d94757b3465286fc8cb3238889ee644e722d50b60c5da8a3"
+    },
+    {
+      "name": "USO.2023-06-09.sqlite",
+      "size": 12353536,
+      "sha256": "300e1954d205db40181f205c6df9ccd70c4400ef94b8580ebc00c5aa281610cd"
+    },
+    {
+      "name": "XSP.2023-06-09.sqlite",
+      "size": 28672,
+      "sha256": "99cf29518a31e4bd60133a4f32f2d88da90420302a315a52a2ae112791ccd9ad"
+    }
+  ],
+  "ingestionTime": "2025-08-30T11:01:45Z",
+  "status": "GREEN",
+  "qualityChecks": {
+    "joinRatio": "PASSED",
+    "zeroOptionDays": "PASSED",
+    "timestampNormalization": "PASSED",
+    "sanityChecks": "PASSED",
+    "integrityChecks": "PASSED"
+  },
+  "loaderCommit": "e762469a91ee384f9923ea9c059024abfba87ebf",
+  "totalFiles": 5
+}
