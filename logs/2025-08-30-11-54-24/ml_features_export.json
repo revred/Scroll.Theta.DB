@@ -1,0 +1,251 @@
+{
+  "metadata": {
+    "export_time": "2025-08-30T10:54:24.605732Z",
+    "total_features": 20,
+    "labeled_features": 20,
+    "training_ready": false,
+    "loss_cap_threshold": 0.02
+  },
+  "features": [
+    {
+      "symbol": "SPY",
+      "filename": "SPY.2023-06-09.sqlite",
+      "timestamp": 1756551264381,
+      "feature_type": "OPEN_INTEREST_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such column: volume\u0027."
+    },
+    {
+      "symbol": "SPY",
+      "filename": "SPY.2023-06-09.sqlite",
+      "timestamp": 1756551264381,
+      "feature_type": "PRICE_PATH_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such function: STDDEV_POP\u0027."
+    },
+    {
+      "symbol": "SPY",
+      "filename": "SPY.2023-06-08.sqlite",
+      "timestamp": 1756551264380,
+      "feature_type": "OPEN_INTEREST_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such column: volume\u0027."
+    },
+    {
+      "symbol": "SPY",
+      "filename": "SPY.2023-06-08.sqlite",
+      "timestamp": 1756551264380,
+      "feature_type": "PRICE_PATH_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such function: STDDEV_POP\u0027."
+    },
+    {
+      "symbol": "SPY",
+      "filename": "SPY.2023-06-06.sqlite",
+      "timestamp": 1756551264378,
+      "feature_type": "OPEN_INTEREST_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such column: volume\u0027."
+    },
+    {
+      "symbol": "SPY",
+      "filename": "SPY.2023-06-06.sqlite",
+      "timestamp": 1756551264378,
+      "feature_type": "PRICE_PATH_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such function: STDDEV_POP\u0027."
+    },
+    {
+      "symbol": "SPX",
+      "filename": "SPX.2023-06-09.sqlite",
+      "timestamp": 1756551264377,
+      "feature_type": "SPX_SKEW_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such function: STDDEV_POP\u0027."
+    },
+    {
+      "symbol": "SPX",
+      "filename": "SPX.2023-06-09.sqlite",
+      "timestamp": 1756551264377,
+      "feature_type": "PRICE_PATH_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such function: STDDEV_POP\u0027."
+    },
+    {
+      "symbol": "SPX",
+      "filename": "SPX.2023-06-07.sqlite",
+      "timestamp": 1756551264375,
+      "feature_type": "SPX_SKEW_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such function: STDDEV_POP\u0027."
+    },
+    {
+      "symbol": "SPX",
+      "filename": "SPX.2023-06-07.sqlite",
+      "timestamp": 1756551264376,
+      "feature_type": "PRICE_PATH_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such function: STDDEV_POP\u0027."
+    },
+    {
+      "symbol": "SPX",
+      "filename": "SPX.2023-06-05.sqlite",
+      "timestamp": 1756551264372,
+      "feature_type": "SPX_SKEW_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such function: STDDEV_POP\u0027."
+    },
+    {
+      "symbol": "SPX",
+      "filename": "SPX.2023-06-05.sqlite",
+      "timestamp": 1756551264372,
+      "feature_type": "PRICE_PATH_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such function: STDDEV_POP\u0027."
+    },
+    {
+      "symbol": "SPY",
+      "filename": "SPY.2023-06-07.sqlite",
+      "timestamp": 1756551264380,
+      "feature_type": "OPEN_INTEREST_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such column: volume\u0027."
+    },
+    {
+      "symbol": "SPY",
+      "filename": "SPY.2023-06-07.sqlite",
+      "timestamp": 1756551264380,
+      "feature_type": "PRICE_PATH_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such function: STDDEV_POP\u0027."
+    },
+    {
+      "symbol": "SPY",
+      "filename": "SPY.2023-06-05.sqlite",
+      "timestamp": 1756551264378,
+      "feature_type": "OPEN_INTEREST_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such column: volume\u0027."
+    },
+    {
+      "symbol": "SPY",
+      "filename": "SPY.2023-06-05.sqlite",
+      "timestamp": 1756551264378,
+      "feature_type": "PRICE_PATH_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such function: STDDEV_POP\u0027."
+    },
+    {
+      "symbol": "SPX",
+      "filename": "SPX.2023-06-08.sqlite",
+      "timestamp": 1756551264376,
+      "feature_type": "SPX_SKEW_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such function: STDDEV_POP\u0027."
+    },
+    {
+      "symbol": "SPX",
+      "filename": "SPX.2023-06-08.sqlite",
+      "timestamp": 1756551264376,
+      "feature_type": "PRICE_PATH_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such function: STDDEV_POP\u0027."
+    },
+    {
+      "symbol": "SPX",
+      "filename": "SPX.2023-06-06.sqlite",
+      "timestamp": 1756551264364,
+      "feature_type": "SPX_SKEW_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such function: STDDEV_POP\u0027."
+    },
+    {
+      "symbol": "SPX",
+      "filename": "SPX.2023-06-06.sqlite",
+      "timestamp": 1756551264372,
+      "feature_type": "PRICE_PATH_ERROR",
+      "risk_score": 0,
+      "properties": {
+        "risk_label": 0,
+        "loss_approach_score": 0
+      },
+      "error_message": "SQLite Error 1: \u0027no such function: STDDEV_POP\u0027."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+Minute Density Analysis Report
+Started: 29/08/2025 22:27:08
+Expected RTH minutes per day: 390
+
+SUMMARY BY SYMBOL:
+  GLD: 350 days, 350 full (100.0%), 0 partial (0.0%), avg 390 min/day
+  SPX: 1901 days, 1901 full (100.0%), 0 partial (0.0%), avg 390 min/day
+  SPY: 504 days, 504 full (100.0%), 0 partial (0.0%), avg 390 min/day
+  USO: 6 days, 6 full (100.0%), 0 partial (0.0%), avg 390 min/day
+  VIX: 521 days, 521 full (100.0%), 0 partial (0.0%), avg 391 min/day
+  XSP: 20 days, 20 full (100.0%), 0 partial (0.0%), avg 390 min/day
+
+LOW DENSITY DAYS (< 312 minutes):
+  No low-density days found!
+
+Completed: 29/08/2025 22:27:08
+Total files analyzed: 3487

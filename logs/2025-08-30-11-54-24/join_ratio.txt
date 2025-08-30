@@ -1,0 +1,123 @@
+Join Ratio Analysis Report
+Started: 30/08/2025 11:54:26
+Analyzing timestamp joinability between underlying_minute and option_minute tables
+
+SUMMARY BY SYMBOL:
+  GLD:
+    Files: 5
+    Underlying: 4,375 records, 4,375 unique timestamps
+    Options: 710,526 records, 1,948 unique timestamps
+    Joinable: 1,940 timestamps (44.3% join ratio)
+    Avg file join ratio: 45.1%
+  SPX:
+    Files: 5
+    Underlying: 5,162 records, 5,162 unique timestamps
+    Options: 1,329,024 records, 2,430 unique timestamps
+    Joinable: 2,425 timestamps (47.0% join ratio)
+    Avg file join ratio: 47.8%
+  SPY:
+    Files: 5
+    Underlying: 2,430 records, 2,430 unique timestamps
+    Options: 0 records, 0 unique timestamps
+    Joinable: 0 timestamps (0.0% join ratio)
+    Avg file join ratio: 0.0%
+  USO:
+    Files: 5
+    Underlying: 3,884 records, 3,884 unique timestamps
+    Options: 408,014 records, 1,948 unique timestamps
+    Joinable: 1,930 timestamps (49.7% join ratio)
+    Avg file join ratio: 49.7%
+  XSP:
+    Files: 5
+    Underlying: 0 records, 0 unique timestamps
+    Options: 0 records, 0 unique timestamps
+    Joinable: 0 timestamps (0.0% join ratio)
+    Avg file join ratio: 0.0%
+
+LOW JOIN RATIO FILES (< 85% joinable per RevisedPlan.md, 20 total):
+  SPY - SPY.2023-06-09.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  SPY - SPY.2023-06-08.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  SPY - SPY.2023-06-07.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  SPY - SPY.2023-06-06.sqlite:
+    Join ratio: 0.0% (0 / 630)
+    Underlying: 630 records, 630 timestamps
+    Options: 0 records, 0 timestamps
+  SPY - SPY.2023-06-05.sqlite:
+    Join ratio: 0.0% (0 / 630)
+    Underlying: 630 records, 630 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2023-06-05.sqlite:
+    Join ratio: 38.0% (387 / 1,018)
+    Underlying: 1,018 records, 1,018 timestamps
+    Options: 155,891 records, 388 timestamps
+  GLD - GLD.2023-06-06.sqlite:
+    Join ratio: 38.1% (388 / 1,019)
+    Underlying: 1,019 records, 1,019 timestamps
+    Options: 153,552 records, 390 timestamps
+  SPX - SPX.2023-06-05.sqlite:
+    Join ratio: 44.6% (629 / 1,411)
+    Underlying: 1,411 records, 1,411 timestamps
+    Options: 300,403 records, 630 timestamps
+  SPX - SPX.2023-06-06.sqlite:
+    Join ratio: 44.6% (629 / 1,411)
+    Underlying: 1,411 records, 1,411 timestamps
+    Options: 300,765 records, 630 timestamps
+  USO - USO.2023-06-05.sqlite:
+    Join ratio: 49.6% (384 / 774)
+    Underlying: 774 records, 774 timestamps
+    Options: 88,881 records, 388 timestamps
+  USO - USO.2023-06-08.sqlite:
+    Join ratio: 49.6% (385 / 776)
+    Underlying: 776 records, 776 timestamps
+    Options: 77,606 records, 390 timestamps
+  USO - USO.2023-06-06.sqlite:
+    Join ratio: 49.7% (386 / 777)
+    Underlying: 777 records, 777 timestamps
+    Options: 87,976 records, 390 timestamps
+  USO - USO.2023-06-09.sqlite:
+    Join ratio: 49.7% (387 / 778)
+    Underlying: 778 records, 778 timestamps
+    Options: 67,073 records, 390 timestamps
+  GLD - GLD.2023-06-09.sqlite:
+    Join ratio: 49.8% (388 / 779)
+    Underlying: 779 records, 779 timestamps
+    Options: 120,395 records, 390 timestamps
+  GLD - GLD.2023-06-08.sqlite:
+    Join ratio: 49.8% (388 / 779)
+    Underlying: 779 records, 779 timestamps
+    Options: 134,488 records, 390 timestamps
+  USO - USO.2023-06-07.sqlite:
+    Join ratio: 49.8% (388 / 779)
+    Underlying: 779 records, 779 timestamps
+    Options: 86,478 records, 390 timestamps
+  GLD - GLD.2023-06-07.sqlite:
+    Join ratio: 49.9% (389 / 780)
+    Underlying: 780 records, 780 timestamps
+    Options: 146,200 records, 390 timestamps
+  SPX - SPX.2023-06-08.sqlite:
+    Join ratio: 49.9% (389 / 780)
+    Underlying: 780 records, 780 timestamps
+    Options: 243,218 records, 390 timestamps
+  SPX - SPX.2023-06-09.sqlite:
+    Join ratio: 49.9% (389 / 780)
+    Underlying: 780 records, 780 timestamps
+    Options: 240,685 records, 390 timestamps
+  SPX - SPX.2023-06-07.sqlite:
+    Join ratio: 49.9% (389 / 780)
+    Underlying: 780 records, 780 timestamps
+    Options: 243,953 records, 390 timestamps
+
+NO-JOIN FILES (underlying and options data but no matching timestamps, 0 total):
+  No no-join files found!
+
+Completed: 30/08/2025 11:54:26
+Total files analyzed: 25

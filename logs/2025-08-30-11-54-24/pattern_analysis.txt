@@ -1,0 +1,46 @@
+ML Pattern Detection for Loss Events Analysis Report (Per RevisedPlan.md P1)
+Started: 30/08/2025 11:54:24
+Features analyzed: VIX term structure, SPX skew, minute-by-minute price path, open interest, realized vol
+Parameters:
+  - Loss cap threshold: 2.0%
+  - Pattern lookback: 30 minutes
+  - Realized vol window: 60 minutes
+  - Min samples for training: 100
+
+PATTERN ANALYSIS BY FEATURE TYPE:
+  OPEN_INTEREST_ERROR:
+    Total features: 5
+    Avg risk score: 0.000
+    Max risk score: 0.000
+    High risk (>0.7): 0 (0.0%)
+    Loss approach indicators (>0.8): 0 (0.0%)
+  PRICE_PATH_ERROR:
+    Total features: 10
+    Avg risk score: 0.000
+    Max risk score: 0.000
+    High risk (>0.7): 0 (0.0%)
+    Loss approach indicators (>0.8): 0 (0.0%)
+  SPX_SKEW_ERROR:
+    Total features: 5
+    Avg risk score: 0.000
+    Max risk score: 0.000
+    High risk (>0.7): 0 (0.0%)
+    Loss approach indicators (>0.8): 0 (0.0%)
+
+PATTERN ANALYSIS BY SYMBOL:
+  SPY: 10 features, 2 types, avg risk: 0.000
+    Critical patterns: 0, Loss approach: 0
+  SPX: 10 features, 2 types, avg risk: 0.000
+    Critical patterns: 0, Loss approach: 0
+
+HIGH-RISK PATTERN DETAILS (Top 50 of 0 patterns):
+
+ML TRAINING READINESS ASSESSMENT:
+  Total features extracted: 20
+  Labeled features: 20
+  Training threshold: 100 samples
+  Status: ❌ INSUFFICIENT data for reliable model training
+
+Completed: 30/08/2025 11:54:24
+Total files analyzed: 10
+Files with features: 10

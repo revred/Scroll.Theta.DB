@@ -1,0 +1,310 @@
+Join Ratio Analysis Report
+Started: 29/08/2025 22:27:01
+Analyzing timestamp joinability between underlying_minute and option_minute tables
+
+SUMMARY BY SYMBOL:
+  GLD:
+    Files: 347
+    Underlying: 136,503 records, 136,503 unique timestamps
+    Options: 461,380 records, 1,173 unique timestamps
+    Joinable: 1,170 timestamps (0.9% join ratio)
+    Avg file join ratio: 0.4%
+  SPX:
+    Files: 1850
+    Underlying: 741,390 records, 741,390 unique timestamps
+    Options: 2,974,920 records, 24,570 unique timestamps
+    Joinable: 24,507 timestamps (3.3% join ratio)
+    Avg file join ratio: 1.7%
+  SPY:
+    Files: 491
+    Underlying: 196,192 records, 196,192 unique timestamps
+    Options: 3,105,713 records, 8,993 unique timestamps
+    Joinable: 8,970 timestamps (4.6% join ratio)
+    Avg file join ratio: 2.5%
+  USO:
+    Files: 4
+    Underlying: 2,343 records, 2,343 unique timestamps
+    Options: 399,602 records, 1,173 unique timestamps
+    Joinable: 1,170 timestamps (49.9% join ratio)
+    Avg file join ratio: 49.9%
+  VIX:
+    Files: 759
+    Underlying: 203,666 records, 203,666 unique timestamps
+    Options: 30,610,571 records, 204,057 unique timestamps
+    Joinable: 0 timestamps (0.0% join ratio)
+    Avg file join ratio: 0.0%
+  XSP:
+    Files: 36
+    Underlying: 7,800 records, 7,800 unique timestamps
+    Options: 3,120,000 records, 7,800 unique timestamps
+    Joinable: 0 timestamps (0.0% join ratio)
+    Avg file join ratio: 0.0%
+
+LOW JOIN RATIO FILES (< 80% joinable, 3209 total):
+  GLD - GLD.2024-10-11.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-10-09.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-10-03.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-09-25.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-09-20.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-09-13.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-09-10.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-09-03.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-08-27.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-08-21.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-08-15.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-08-08.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-08-02.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-07-29.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-07-23.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-07-17.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-07-12.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-07-08.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-07-02.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-06-27.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-06-21.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-06-12.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-06-07.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-05-31.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-05-23.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-05-17.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-05-14.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-10-07.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-10-02.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-09-26.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-09-19.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-09-17.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-09-09.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-08-30.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-08-28.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-08-23.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-08-16.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-08-09.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-08-07.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-08-01.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-07-26.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-07-18.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-07-11.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-07-05.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-07-01.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-06-26.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-06-20.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-06-14.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-06-10.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+  GLD - GLD.2024-06-03.sqlite:
+    Join ratio: 0.0% (0 / 390)
+    Underlying: 390 records, 390 timestamps
+    Options: 0 records, 0 timestamps
+    ... and 3159 more low join ratio files
+
+NO-JOIN FILES (underlying and options data but no matching timestamps, 541 total):
+  VIX - VIX.2025-08-13.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 62,560 records, 391 timestamps
+  VIX - VIX.2024-08-22.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 31,280 records, 391 timestamps
+  VIX - VIX.2023-05-04.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 62,560 records, 391 timestamps
+  VIX - VIX.2023-04-20.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 31,280 records, 391 timestamps
+  VIX - VIX.2023-03-29.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 62,560 records, 391 timestamps
+  VIX - VIX.2023-03-06.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 62,560 records, 391 timestamps
+  VIX - VIX.2023-02-06.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 62,560 records, 391 timestamps
+  VIX - VIX.2023-01-20.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 31,280 records, 391 timestamps
+  VIX - VIX.2022-05-03.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 60,996 records, 391 timestamps
+  VIX - VIX.2022-04-07.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 62,560 records, 391 timestamps
+  VIX - VIX.2022-03-14.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 62,560 records, 391 timestamps
+  VIX - VIX.2022-02-22.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 62,560 records, 391 timestamps
+  VIX - VIX.2022-01-14.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 91,494 records, 391 timestamps
+  VIX - VIX.2021-04-28.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 62,560 records, 391 timestamps
+  VIX - VIX.2021-04-05.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 62,560 records, 391 timestamps
+  VIX - VIX.2021-03-11.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 62,560 records, 391 timestamps
+  VIX - VIX.2021-02-12.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 62,560 records, 391 timestamps
+  VIX - VIX.2021-01-21.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 62,560 records, 391 timestamps
+  VIX - VIX.2020-04-24.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 62,560 records, 391 timestamps
+  VIX - VIX.2020-03-26.sqlite
+    Underlying: 391 records, 391 timestamps
+    Options: 60,996 records, 391 timestamps
+    ... and 521 more no-join files
+
+Completed: 29/08/2025 22:27:01
+Total files analyzed: 3487

@@ -1,0 +1,34 @@
+Data Sanity Check Report
+Started: 30/08/2025 11:54:26
+Checking for data quality violations: bid≤ask, IV ranges, |delta|≤1.1, price sanity
+
+VIOLATION SUMMARY BY TYPE:
+  CRITICAL_IV_VIOLATION_PER_REVISEDPLAN:
+    Total violations: 458
+    Affected files: 2
+    Affected symbols: 1
+  NON_POSITIVE_PRICE:
+    Total violations: 8
+    Affected files: 2
+    Affected symbols: 2
+
+VIOLATION SUMMARY BY SYMBOL:
+  SPX: 458 violations across 2 files (1 violation types)
+  SPY: 4 violations across 1 files (1 violation types)
+  GLD: 4 violations across 1 files (1 violation types)
+
+DETAILED VIOLATIONS (4 total):
+  NON_POSITIVE_PRICE:
+    SPY - SPY.2023-06-05.sqlite (underlying_minute):
+      Count: 4, Details: Min price: 0.00
+    GLD - GLD.2023-06-05.sqlite (underlying_minute):
+      Count: 4, Details: Min price: 0.00
+  CRITICAL_IV_VIOLATION_PER_REVISEDPLAN:
+    SPX - SPX.2023-06-06.sqlite (option_minute):
+      Count: 212, Details: IV range: 0.0000 - 0.0000, avg: 0.0000, sentinel values: 0. Per RevisedPlan.md: FAIL on any IV ≤0.01, >5.0, or sentinel 214748.3646
+    SPX - SPX.2023-06-05.sqlite (option_minute):
+      Count: 246, Details: IV range: 0.0000 - 0.0000, avg: 0.0000, sentinel values: 0. Per RevisedPlan.md: FAIL on any IV ≤0.01, >5.0, or sentinel 214748.3646
+
+Completed: 30/08/2025 11:54:26
+Total files analyzed: 25
+Files with violations: 4

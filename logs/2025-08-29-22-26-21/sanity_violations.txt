@@ -1,0 +1,156 @@
+Data Sanity Check Report
+Started: 29/08/2025 22:27:17
+Checking for data quality violations: bid≤ask, IV ranges, |delta|≤1.1, price sanity
+
+VIOLATION SUMMARY BY TYPE:
+  EXTREME_IMPLIED_VOLATILITY:
+    Total violations: 45,057
+    Affected files: 34
+    Affected symbols: 2
+  NON_POSITIVE_PRICE:
+    Total violations: 4,127
+    Affected files: 90
+    Affected symbols: 4
+  EXTREME_PRICE_MOVEMENT:
+    Total violations: 121
+    Affected files: 89
+    Affected symbols: 4
+
+VIOLATION SUMMARY BY SYMBOL:
+  VIX: 45,018 violations across 33 files (1 violation types)
+  SPX: 2,657 violations across 47 files (2 violation types)
+  SPY: 907 violations across 14 files (2 violation types)
+  GLD: 671 violations across 112 files (2 violation types)
+  USO: 52 violations across 7 files (3 violation types)
+
+DETAILED VIOLATIONS (213 total):
+  EXTREME_IMPLIED_VOLATILITY:
+    VIX - VIX.2020-02-18.sqlite (option_minute):
+      Count: 2,280, Details: IV range: 10.0484 - 13.9937, avg: 11.0910
+    VIX - VIX.2019-03-18.sqlite (option_minute):
+      Count: 2,374, Details: IV range: 10.0484 - 14.3410, avg: 11.5604
+    VIX - VIX.2021-01-19.sqlite (option_minute):
+      Count: 811, Details: IV range: 10.0238 - 13.5472, avg: 10.6354
+    VIX - VIX.2025-08-19.sqlite (option_minute):
+      Count: 1,693, Details: IV range: 10.0238 - 15.2463, avg: 11.4568
+    VIX - VIX.2019-04-16.sqlite (option_minute):
+      Count: 3,120, Details: IV range: 10.0484 - 13.3984, avg: 11.6966
+    VIX - VIX.2019-02-12.sqlite (option_minute):
+      Count: 1,587, Details: IV range: 10.2453 - 12.1648, avg: 10.9862
+    VIX - VIX.2020-03-09.sqlite (option_minute):
+      Count: 264, Details: IV range: 10.0053 - 19.7174, avg: 13.7453
+    VIX - VIX.2024-08-20.sqlite (option_minute):
+      Count: 467, Details: IV range: 10.0115 - 12.7923, avg: 10.6434
+    VIX - VIX.2023-02-14.sqlite (option_minute):
+      Count: 726, Details: IV range: 10.0484 - 13.8945, avg: 10.9122
+    VIX - VIX.2022-01-18.sqlite (option_minute):
+      Count: 4,891, Details: IV range: 10.0115 - 17.2307, avg: 12.2459
+    VIX - VIX.2021-04-19.sqlite (option_minute):
+      Count: 6, Details: IV range: 10.0238 - 10.5898, avg: 10.1899
+    VIX - VIX.2020-03-17.sqlite (option_minute):
+      Count: 3,124, Details: IV range: 10.0484 - 13.0015, avg: 11.4270
+    VIX - VIX.2023-04-18.sqlite (option_minute):
+      Count: 151, Details: IV range: 10.0484 - 10.8359, avg: 10.3372
+    VIX - VIX.2023-02-15.sqlite (option_minute):
+      Count: 3, Details: IV range: 214748.3646 - 214748.3646, avg: 214748.3646
+    VIX - VIX.2022-03-14.sqlite (option_minute):
+      Count: 1,526, Details: IV range: 10.0053 - 13.5162, avg: 11.0050
+    VIX - VIX.2022-02-14.sqlite (option_minute):
+      Count: 183, Details: IV range: 10.0022 - 11.1620, avg: 10.2964
+    VIX - VIX.2019-01-15.sqlite (option_minute):
+      Count: 566, Details: IV range: 10.0484 - 12.9031, avg: 10.3032
+    VIX - VIX.2023-03-20.sqlite (option_minute):
+      Count: 2, Details: IV range: 10.0053 - 10.0853, avg: 10.0453
+    VIX - VIX.2021-02-16.sqlite (option_minute):
+      Count: 1,030, Details: IV range: 10.0484 - 13.4480, avg: 10.4306
+    VIX - VIX.2018-12-17.sqlite (option_minute):
+      Count: 405, Details: IV range: 10.0053 - 11.0697, avg: 10.3554
+    ... and 14 more files with this violation
+  NON_POSITIVE_PRICE:
+    SPX - SPX.2025-04-07.sqlite (underlying_minute):
+      Count: 4, Details: Min price: 0.00
+    SPX - SPX.2023-11-24.sqlite (underlying_minute):
+      Count: 178, Details: Min price: 0.00
+    SPY - SPY.2023-11-10.sqlite (underlying_minute):
+      Count: 1, Details: Min price: 0.00
+    SPX - SPX.2022-11-25.sqlite (underlying_minute):
+      Count: 176, Details: Min price: 0.00
+    SPX - SPX.2025-07-03.sqlite (underlying_minute):
+      Count: 178, Details: Min price: 0.00
+    SPY - SPY.2024-07-03.sqlite (underlying_minute):
+      Count: 177, Details: Min price: 0.00
+    USO - USO.2025-08-28.sqlite (underlying_minute):
+      Count: 1, Details: Min price: 0.00
+    SPY - SPY.2024-12-24.sqlite (underlying_minute):
+      Count: 177, Details: Min price: 0.00
+    SPY - SPY.2024-11-29.sqlite (underlying_minute):
+      Count: 177, Details: Min price: 0.00
+    SPY - SPY.2023-06-05.sqlite (underlying_minute):
+      Count: 4, Details: Min price: 0.00
+    SPX - SPX.2024-07-03.sqlite (underlying_minute):
+      Count: 176, Details: Min price: 0.00
+    SPX - SPX.2020-02-03.sqlite (underlying_minute):
+      Count: 2, Details: Min price: 0.00
+    SPX - SPX.2020-03-09.sqlite (underlying_minute):
+      Count: 14, Details: Min price: 0.00
+    SPX - SPX.2020-11-27.sqlite (underlying_minute):
+      Count: 176, Details: Min price: 0.00
+    SPX - SPX.2021-07-09.sqlite (underlying_minute):
+      Count: 1, Details: Min price: 0.00
+    SPX - SPX.2020-03-18.sqlite (underlying_minute):
+      Count: 14, Details: Min price: 0.00
+    USO - USO.2025-08-27.sqlite (underlying_minute):
+      Count: 4, Details: Min price: 0.00
+    SPY - SPY.2023-07-03.sqlite (underlying_minute):
+      Count: 177, Details: Min price: 0.00
+    SPX - SPX.2019-12-24.sqlite (underlying_minute):
+      Count: 177, Details: Min price: 0.00
+    SPX - SPX.2024-05-30.sqlite (underlying_minute):
+      Count: 77, Details: Min price: 0.00
+    ... and 70 more files with this violation
+  EXTREME_PRICE_MOVEMENT:
+    SPX - SPX.2025-04-07.sqlite (underlying_minute):
+      Count: 2, Details: Max change: 100.00%
+    SPX - SPX.2023-11-24.sqlite (underlying_minute):
+      Count: 1, Details: Max change: 100.00%
+    SPY - SPY.2023-11-10.sqlite (underlying_minute):
+      Count: 1, Details: Max change: 100.00%
+    SPX - SPX.2022-11-25.sqlite (underlying_minute):
+      Count: 1, Details: Max change: 100.00%
+    SPX - SPX.2025-07-03.sqlite (underlying_minute):
+      Count: 1, Details: Max change: 100.00%
+    SPY - SPY.2024-07-03.sqlite (underlying_minute):
+      Count: 3, Details: Max change: 100.00%
+    USO - USO.2025-08-28.sqlite (underlying_minute):
+      Count: 1, Details: Max change: 100.00%
+    SPY - SPY.2024-12-24.sqlite (underlying_minute):
+      Count: 3, Details: Max change: 100.00%
+    SPY - SPY.2024-11-29.sqlite (underlying_minute):
+      Count: 3, Details: Max change: 100.00%
+    SPY - SPY.2023-06-05.sqlite (underlying_minute):
+      Count: 1, Details: Max change: 100.00%
+    SPX - SPX.2024-07-03.sqlite (underlying_minute):
+      Count: 1, Details: Max change: 100.00%
+    SPX - SPX.2020-02-03.sqlite (underlying_minute):
+      Count: 1, Details: Max change: 100.00%
+    SPX - SPX.2020-03-09.sqlite (underlying_minute):
+      Count: 1, Details: Max change: 100.00%
+    SPX - SPX.2020-11-27.sqlite (underlying_minute):
+      Count: 2, Details: Max change: 100.00%
+    SPX - SPX.2021-07-09.sqlite (underlying_minute):
+      Count: 1, Details: Max change: 100.00%
+    SPX - SPX.2020-03-18.sqlite (underlying_minute):
+      Count: 1, Details: Max change: 100.00%
+    USO - USO.2025-08-27.sqlite (underlying_minute):
+      Count: 3, Details: Max change: 100.00%
+    SPY - SPY.2023-07-03.sqlite (underlying_minute):
+      Count: 3, Details: Max change: 100.00%
+    SPX - SPX.2019-12-24.sqlite (underlying_minute):
+      Count: 1, Details: Max change: 100.00%
+    SPX - SPX.2024-05-30.sqlite (underlying_minute):
+      Count: 1, Details: Max change: 100.00%
+    ... and 69 more files with this violation
+
+Completed: 29/08/2025 22:27:17
+Total files analyzed: 3487
+Files with violations: 123

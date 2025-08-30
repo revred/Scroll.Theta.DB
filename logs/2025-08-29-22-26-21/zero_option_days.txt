@@ -1,0 +1,159 @@
+Zero Option Days Analysis Report
+Started: 29/08/2025 22:27:13
+Identifying ETL misses where underlying data exists but option data is missing
+
+SUMMARY BY SYMBOL:
+  GLD:
+    Files: 347
+    Underlying days: 350 (136,503 records)
+    Option days: 3 (461,380 records)
+    Zero-option days: 347 (99.1% miss rate)
+    Coverage: 0.9%
+  SPX:
+    Files: 1850
+    Underlying days: 1,901 (741,390 records)
+    Option days: 63 (2,976,090 records)
+    Zero-option days: 1,838 (96.7% miss rate)
+    Coverage: 3.3%
+  SPY:
+    Files: 491
+    Underlying days: 504 (196,583 records)
+    Option days: 23 (3,110,796 records)
+    Zero-option days: 481 (95.4% miss rate)
+    Coverage: 4.6%
+  USO:
+    Files: 4
+    Underlying days: 6 (2,343 records)
+    Option days: 3 (399,602 records)
+    Zero-option days: 3 (50.0% miss rate)
+    Coverage: 50.0%
+  VIX:
+    Files: 759
+    Underlying days: 521 (203,666 records)
+    Option days: 522 (30,610,571 records)
+    Zero-option days: 521 (100.0% miss rate)
+    Coverage: 100.2%
+  XSP:
+    Files: 36
+    Underlying days: 20 (7,800 records)
+    Option days: 20 (3,120,000 records)
+    Zero-option days: 20 (100.0% miss rate)
+    Coverage: 100.0%
+
+ZERO OPTION DAYS DETAIL (3210 total):
+  GLD: 347 zero-option days
+    2023-06-01 - GLD.2023-06-01.sqlite
+    2023-06-02 - GLD.2023-06-02.sqlite
+    2023-06-05 - GLD.2023-06-05.sqlite
+    2023-06-06 - GLD.2023-06-06.sqlite
+    2023-06-07 - GLD.2023-06-07.sqlite
+    2023-06-08 - GLD.2023-06-08.sqlite
+    2023-06-09 - GLD.2023-06-09.sqlite
+    2023-06-12 - GLD.2023-06-12.sqlite
+    2023-06-13 - GLD.2023-06-13.sqlite
+    2023-06-14 - GLD.2023-06-14.sqlite
+    2023-06-15 - GLD.2023-06-15.sqlite
+    2023-06-16 - GLD.2023-06-16.sqlite
+    2023-06-20 - GLD.2023-06-20.sqlite
+    2023-06-21 - GLD.2023-06-21.sqlite
+    2023-06-22 - GLD.2023-06-22.sqlite
+    2023-06-23 - GLD.2023-06-23.sqlite
+    2023-06-26 - GLD.2023-06-26.sqlite
+    2023-06-27 - GLD.2023-06-27.sqlite
+    2023-06-28 - GLD.2023-06-28.sqlite
+    2023-06-29 - GLD.2023-06-29.sqlite
+    ... and 327 more days
+  SPX: 1838 zero-option days
+    2018-01-02 - SPX.2018-01-02.sqlite
+    2018-01-03 - SPX.2018-01-03.sqlite
+    2018-01-04 - SPX.2018-01-04.sqlite
+    2018-01-05 - SPX.2018-01-05.sqlite
+    2018-01-08 - SPX.2018-01-08.sqlite
+    2018-01-09 - SPX.2018-01-09.sqlite
+    2018-01-10 - SPX.2018-01-10.sqlite
+    2018-01-11 - SPX.2018-01-11.sqlite
+    2018-01-12 - SPX.2018-01-12.sqlite
+    2018-01-16 - SPX.2018-01-16.sqlite
+    2018-01-17 - SPX.2018-01-17.sqlite
+    2018-01-18 - SPX.2018-01-18.sqlite
+    2018-01-19 - SPX.2018-01-19.sqlite
+    2018-01-22 - SPX.2018-01-22.sqlite
+    2018-01-23 - SPX.2018-01-23.sqlite
+    2018-01-24 - SPX.2018-01-24.sqlite
+    2018-01-25 - SPX.2018-01-25.sqlite
+    2018-01-26 - SPX.2018-01-26.sqlite
+    2018-01-29 - SPX.2018-01-29.sqlite
+    2018-01-30 - SPX.2018-01-30.sqlite
+    ... and 1818 more days
+  SPY: 481 zero-option days
+    2023-06-01 - SPY.2023-06-01.sqlite
+    2023-06-02 - SPY.2023-06-02.sqlite
+    2023-06-05 - SPY.2023-06-05.sqlite
+    2023-06-06 - SPY.2023-06-06.sqlite
+    2023-06-07 - SPY.2023-06-07.sqlite
+    2023-06-08 - SPY.2023-06-08.sqlite
+    2023-06-09 - SPY.2023-06-09.sqlite
+    2023-06-12 - SPY.2023-06-12.sqlite
+    2023-06-13 - SPY.2023-06-13.sqlite
+    2023-06-14 - SPY.2023-06-14.sqlite
+    2023-06-15 - SPY.2023-06-15.sqlite
+    2023-06-16 - SPY.2023-06-16.sqlite
+    2023-06-20 - SPY.2023-06-20.sqlite
+    2023-06-21 - SPY.2023-06-21.sqlite
+    2023-06-22 - SPY.2023-06-22.sqlite
+    2023-06-23 - SPY.2023-06-23.sqlite
+    2023-06-26 - SPY.2023-06-26.sqlite
+    2023-06-27 - SPY.2023-06-27.sqlite
+    2023-06-28 - SPY.2023-06-28.sqlite
+    2023-06-29 - SPY.2023-06-29.sqlite
+    ... and 461 more days
+  USO: 3 zero-option days
+    2081-04-20 - USO.2025-08-26.sqlite
+    2081-04-22 - USO.2025-08-27.sqlite
+    2081-04-24 - USO.2025-08-28.sqlite
+  VIX: 521 zero-option days
+    2067-08-12 - VIX.2018-10-22.sqlite
+    2067-08-14 - VIX.2018-10-23.sqlite
+    2067-08-16 - VIX.2018-10-24.sqlite
+    2067-08-18 - VIX.2018-10-25.sqlite
+    2067-08-20 - VIX.2018-10-26.sqlite
+    2067-08-26 - VIX.2018-10-29.sqlite
+    2067-08-28 - VIX.2018-10-30.sqlite
+    2067-08-30 - VIX.2018-10-31.sqlite
+    2067-09-01 - VIX.2018-11-01.sqlite
+    2067-09-03 - VIX.2018-11-02.sqlite
+    2067-09-09 - VIX.2018-11-05.sqlite
+    2067-09-11 - VIX.2018-11-06.sqlite
+    2067-09-13 - VIX.2018-11-07.sqlite
+    2067-09-15 - VIX.2018-11-08.sqlite
+    2067-09-17 - VIX.2018-11-09.sqlite
+    2067-09-23 - VIX.2018-11-12.sqlite
+    2067-09-25 - VIX.2018-11-13.sqlite
+    2067-09-27 - VIX.2018-11-14.sqlite
+    2067-09-29 - VIX.2018-11-15.sqlite
+    2067-10-01 - VIX.2018-11-16.sqlite
+    ... and 501 more days
+  XSP: 20 zero-option days
+    2081-03-01 - XSP.2025-08-01.sqlite
+    2081-03-07 - XSP.2025-08-04.sqlite
+    2081-03-09 - XSP.2025-08-05.sqlite
+    2081-03-11 - XSP.2025-08-06.sqlite
+    2081-03-13 - XSP.2025-08-07.sqlite
+    2081-03-15 - XSP.2025-08-08.sqlite
+    2081-03-21 - XSP.2025-08-11.sqlite
+    2081-03-23 - XSP.2025-08-12.sqlite
+    2081-03-25 - XSP.2025-08-13.sqlite
+    2081-03-27 - XSP.2025-08-14.sqlite
+    2081-03-29 - XSP.2025-08-15.sqlite
+    2081-04-04 - XSP.2025-08-18.sqlite
+    2081-04-06 - XSP.2025-08-19.sqlite
+    2081-04-08 - XSP.2025-08-20.sqlite
+    2081-04-10 - XSP.2025-08-21.sqlite
+    2081-04-12 - XSP.2025-08-22.sqlite
+    2081-04-18 - XSP.2025-08-25.sqlite
+    2081-04-20 - XSP.2025-08-26.sqlite
+    2081-04-22 - XSP.2025-08-27.sqlite
+    2081-04-24 - XSP.2025-08-28.sqlite
+
+Completed: 29/08/2025 22:27:13
+Total files analyzed: 3487

@@ -1,0 +1,54 @@
+DATABASE PROBE ANALYSIS SUMMARY REPORT
+================================================================================
+Generated: 2025-08-30 06:27:15
+Health Score: 70.0%
+
+PROBE RESULTS
+--------------------------------------------------------------------------------
+Inventory:
+  Status: PASSED
+  Details: 26 files across 6 symbols
+  Metrics:
+    - TotalFiles: 26
+    - Symbols: 6
+    - Years: 8
+
+Schema:
+  Status: WARNING
+  Details: Schema issues detected
+  Issues: 1
+
+DataSpan:
+  Status: PASSED
+  Details: 1,439,277 underlying, 60,985,312 option records
+  Metrics:
+    - SymbolsWithData: 6
+    - TotalUnderlyingRecords: 1,439,277
+    - TotalOptionRecords: 60,985,312
+
+MinuteDensity:
+  Status: PASSED
+  Details: Density analysis completed
+
+ZeroOptionDays:
+  Status: PASSED
+  Details: Zero option days analysis completed
+
+JoinRatio:
+  Status: PASSED
+  Details: Join ratio analysis completed
+  Metrics:
+    - AverageJoinRatio: 0
+
+SanityCheck:
+  Status: PASSED
+  Details: Sanity check analysis completed
+
+Integrity:
+  Status: PASSED
+  Details: All integrity checks passed
+
+HEALTH ASSESSMENT
+--------------------------------------------------------------------------------
+Status: FAIR
+The database collection has significant issues that should be addressed.

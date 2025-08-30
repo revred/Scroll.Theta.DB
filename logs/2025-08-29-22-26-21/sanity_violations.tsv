@@ -1,0 +1,214 @@
+symbol	file	table	violation_type	count	details
+GLD	GLD.2023-06-05.sqlite	underlying_minute	NON_POSITIVE_PRICE	4	Min price: 0.00
+GLD	GLD.2023-06-05.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-06-06.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-06-06.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-06-08.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-06-08.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-06-09.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-06-09.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-06-15.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-06-15.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-06-23.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-06-23.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-06-26.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-06-26.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-07-03.sqlite	underlying_minute	NON_POSITIVE_PRICE	177	Min price: 0.00
+GLD	GLD.2023-07-03.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	3	Max change: 100.00%
+GLD	GLD.2023-07-07.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-07-07.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-07-11.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-07-11.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-07-14.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-07-14.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-07-19.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-07-19.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-07-25.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-07-25.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-07-27.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-07-27.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-07-28.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-07-28.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-08-03.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-08-03.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-08-04.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-08-04.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-08-11.sqlite	underlying_minute	NON_POSITIVE_PRICE	2	Min price: 0.00
+GLD	GLD.2023-08-11.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	2	Max change: 100.00%
+GLD	GLD.2023-08-14.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-08-14.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-08-21.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-08-21.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-08-22.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-08-22.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-09-06.sqlite	underlying_minute	NON_POSITIVE_PRICE	2	Min price: 0.00
+GLD	GLD.2023-09-06.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	2	Max change: 100.00%
+GLD	GLD.2023-09-08.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-09-08.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-09-11.sqlite	underlying_minute	NON_POSITIVE_PRICE	2	Min price: 0.00
+GLD	GLD.2023-09-11.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	2	Max change: 100.00%
+GLD	GLD.2023-09-13.sqlite	underlying_minute	NON_POSITIVE_PRICE	3	Min price: 0.00
+GLD	GLD.2023-09-13.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	2	Max change: 100.00%
+GLD	GLD.2023-09-22.sqlite	underlying_minute	NON_POSITIVE_PRICE	3	Min price: 0.00
+GLD	GLD.2023-09-22.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	3	Max change: 100.00%
+GLD	GLD.2023-11-09.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-11-09.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-11-10.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-11-10.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-11-17.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-11-17.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-11-24.sqlite	underlying_minute	NON_POSITIVE_PRICE	177	Min price: 0.00
+GLD	GLD.2023-11-24.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	3	Max change: 100.00%
+GLD	GLD.2023-12-12.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-12-12.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2023-12-13.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2023-12-13.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-01-04.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-01-04.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-01-26.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-01-26.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-02-12.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-02-12.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-02-28.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-02-28.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-03-14.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-03-14.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-03-18.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-03-18.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-03-19.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-03-19.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-04-25.sqlite	underlying_minute	NON_POSITIVE_PRICE	2	Min price: 0.00
+GLD	GLD.2024-04-25.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	2	Max change: 100.00%
+GLD	GLD.2024-05-13.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-05-13.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-05-21.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-05-21.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-05-30.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-05-30.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-06-24.sqlite	underlying_minute	NON_POSITIVE_PRICE	2	Min price: 0.00
+GLD	GLD.2024-06-24.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	2	Max change: 100.00%
+GLD	GLD.2024-06-25.sqlite	underlying_minute	NON_POSITIVE_PRICE	3	Min price: 0.00
+GLD	GLD.2024-06-25.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	3	Max change: 100.00%
+GLD	GLD.2024-06-28.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-06-28.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-07-03.sqlite	underlying_minute	NON_POSITIVE_PRICE	177	Min price: 0.00
+GLD	GLD.2024-07-03.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	3	Max change: 100.00%
+GLD	GLD.2024-07-10.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-07-10.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-07-18.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-07-18.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-08-13.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-08-13.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-08-21.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-08-21.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-08-23.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-08-23.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-08-26.sqlite	underlying_minute	NON_POSITIVE_PRICE	2	Min price: 0.00
+GLD	GLD.2024-08-26.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-09-05.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-09-05.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-09-10.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-09-10.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+GLD	GLD.2024-09-16.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+GLD	GLD.2024-09-16.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2018-07-03.sqlite	underlying_minute	NON_POSITIVE_PRICE	175	Min price: 0.00
+SPX	SPX.2018-07-03.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2018-11-23.sqlite	underlying_minute	NON_POSITIVE_PRICE	176	Min price: 0.00
+SPX	SPX.2018-11-23.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2018-12-24.sqlite	underlying_minute	NON_POSITIVE_PRICE	173	Min price: 0.00
+SPX	SPX.2018-12-24.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2019-06-14.sqlite	underlying_minute	NON_POSITIVE_PRICE	10	Min price: 0.00
+SPX	SPX.2019-07-03.sqlite	underlying_minute	NON_POSITIVE_PRICE	175	Min price: 0.00
+SPX	SPX.2019-07-03.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2019-08-13.sqlite	underlying_minute	NON_POSITIVE_PRICE	16	Min price: 0.00
+SPX	SPX.2019-08-13.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2019-11-29.sqlite	underlying_minute	NON_POSITIVE_PRICE	175	Min price: 0.00
+SPX	SPX.2019-11-29.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2019-12-24.sqlite	underlying_minute	NON_POSITIVE_PRICE	177	Min price: 0.00
+SPX	SPX.2019-12-24.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2020-02-03.sqlite	underlying_minute	NON_POSITIVE_PRICE	2	Min price: 0.00
+SPX	SPX.2020-02-03.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2020-03-09.sqlite	underlying_minute	NON_POSITIVE_PRICE	14	Min price: 0.00
+SPX	SPX.2020-03-09.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2020-03-12.sqlite	underlying_minute	NON_POSITIVE_PRICE	14	Min price: 0.00
+SPX	SPX.2020-03-12.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2020-03-16.sqlite	underlying_minute	NON_POSITIVE_PRICE	14	Min price: 0.00
+SPX	SPX.2020-03-16.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2020-03-18.sqlite	underlying_minute	NON_POSITIVE_PRICE	14	Min price: 0.00
+SPX	SPX.2020-03-18.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2020-11-27.sqlite	underlying_minute	NON_POSITIVE_PRICE	176	Min price: 0.00
+SPX	SPX.2020-11-27.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	2	Max change: 100.00%
+SPX	SPX.2020-12-24.sqlite	underlying_minute	NON_POSITIVE_PRICE	176	Min price: 0.00
+SPX	SPX.2020-12-24.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	2	Max change: 100.00%
+SPX	SPX.2021-07-09.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+SPX	SPX.2021-07-09.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2021-11-26.sqlite	underlying_minute	NON_POSITIVE_PRICE	177	Min price: 0.00
+SPX	SPX.2021-11-26.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2022-11-25.sqlite	underlying_minute	NON_POSITIVE_PRICE	176	Min price: 0.00
+SPX	SPX.2022-11-25.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2023-07-03.sqlite	underlying_minute	NON_POSITIVE_PRICE	177	Min price: 0.00
+SPX	SPX.2023-07-03.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2023-11-24.sqlite	underlying_minute	NON_POSITIVE_PRICE	178	Min price: 0.00
+SPX	SPX.2023-11-24.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2024-05-30.sqlite	underlying_minute	NON_POSITIVE_PRICE	77	Min price: 0.00
+SPX	SPX.2024-05-30.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2024-07-03.sqlite	underlying_minute	NON_POSITIVE_PRICE	176	Min price: 0.00
+SPX	SPX.2024-07-03.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPX	SPX.2025-04-07.sqlite	underlying_minute	NON_POSITIVE_PRICE	4	Min price: 0.00
+SPX	SPX.2025-04-07.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	2	Max change: 100.00%
+SPX	SPX.2025-07-03.sqlite	underlying_minute	NON_POSITIVE_PRICE	178	Min price: 0.00
+SPX	SPX.2025-07-03.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPY	SPY.2023-06-05.sqlite	underlying_minute	NON_POSITIVE_PRICE	4	Min price: 0.00
+SPY	SPY.2023-06-05.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPY	SPY.2023-07-03.sqlite	underlying_minute	NON_POSITIVE_PRICE	177	Min price: 0.00
+SPY	SPY.2023-07-03.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	3	Max change: 100.00%
+SPY	SPY.2023-11-10.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+SPY	SPY.2023-11-10.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+SPY	SPY.2023-11-24.sqlite	underlying_minute	NON_POSITIVE_PRICE	177	Min price: 0.00
+SPY	SPY.2023-11-24.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	3	Max change: 100.00%
+SPY	SPY.2024-07-03.sqlite	underlying_minute	NON_POSITIVE_PRICE	177	Min price: 0.00
+SPY	SPY.2024-07-03.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	3	Max change: 100.00%
+SPY	SPY.2024-11-29.sqlite	underlying_minute	NON_POSITIVE_PRICE	177	Min price: 0.00
+SPY	SPY.2024-11-29.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	3	Max change: 100.00%
+SPY	SPY.2024-12-24.sqlite	underlying_minute	NON_POSITIVE_PRICE	177	Min price: 0.00
+SPY	SPY.2024-12-24.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	3	Max change: 100.00%
+USO	USO.2025-08-26.sqlite	underlying_minute	NON_POSITIVE_PRICE	2	Min price: 0.00
+USO	USO.2025-08-26.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	2	Max change: 100.00%
+USO	USO.2025-08-27.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	39	IV range: 10.0176 - 11.1312, avg: 10.5332
+USO	USO.2025-08-27.sqlite	underlying_minute	NON_POSITIVE_PRICE	4	Min price: 0.00
+USO	USO.2025-08-27.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	3	Max change: 100.00%
+USO	USO.2025-08-28.sqlite	underlying_minute	NON_POSITIVE_PRICE	1	Min price: 0.00
+USO	USO.2025-08-28.sqlite	underlying_minute	EXTREME_PRICE_MOVEMENT	1	Max change: 100.00%
+VIX	VIX.2018-12-17.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	405	IV range: 10.0053 - 11.0697, avg: 10.3554
+VIX	VIX.2018-12-18.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	1871	IV range: 10.0053 - 14.3038, avg: 11.7865
+VIX	VIX.2019-01-15.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	566	IV range: 10.0484 - 12.9031, avg: 10.3032
+VIX	VIX.2019-02-12.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	1587	IV range: 10.2453 - 12.1648, avg: 10.9862
+VIX	VIX.2019-03-18.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	2374	IV range: 10.0484 - 14.3410, avg: 11.5604
+VIX	VIX.2019-04-16.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	3120	IV range: 10.0484 - 13.3984, avg: 11.6966
+VIX	VIX.2020-01-21.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	4299	IV range: 10.0238 - 17.3423, avg: 11.9242
+VIX	VIX.2020-02-18.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	2280	IV range: 10.0484 - 13.9937, avg: 11.0910
+VIX	VIX.2020-03-09.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	264	IV range: 10.0053 - 19.7174, avg: 13.7453
+VIX	VIX.2020-03-16.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	59	IV range: 10.2653 - 214748.3646, avg: 14586.5901
+VIX	VIX.2020-03-17.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	3124	IV range: 10.0484 - 13.0015, avg: 11.4270
+VIX	VIX.2020-04-14.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	117	IV range: 10.0238 - 12.7062, avg: 10.8793
+VIX	VIX.2021-01-19.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	811	IV range: 10.0238 - 13.5472, avg: 10.6354
+VIX	VIX.2021-02-16.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	1030	IV range: 10.0484 - 13.4480, avg: 10.4306
+VIX	VIX.2021-03-16.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	1641	IV range: 10.0484 - 13.7953, avg: 10.7181
+VIX	VIX.2021-04-19.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	6	IV range: 10.0238 - 10.5898, avg: 10.1899
+VIX	VIX.2021-04-20.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	4461	IV range: 10.0115 - 17.3919, avg: 11.7202
+VIX	VIX.2022-01-18.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	4891	IV range: 10.0115 - 17.2307, avg: 12.2459
+VIX	VIX.2022-02-14.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	183	IV range: 10.0022 - 11.1620, avg: 10.2964
+VIX	VIX.2022-02-15.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	453	IV range: 10.0115 - 13.8387, avg: 10.9796
+VIX	VIX.2022-03-14.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	1526	IV range: 10.0053 - 13.5162, avg: 11.0050
+VIX	VIX.2022-04-18.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	6	IV range: 10.0361 - 10.5406, avg: 10.2504
+VIX	VIX.2022-04-19.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	1866	IV range: 10.0484 - 11.9187, avg: 10.8549
+VIX	VIX.2023-01-16.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	1632	IV range: 10.4114 - 214748.3646, avg: 143169.6723
+VIX	VIX.2023-01-17.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	85	IV range: 10.0730 - 13.8573, avg: 11.0801
+VIX	VIX.2023-02-13.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	1913	IV range: 10.0053 - 12.3063, avg: 10.9530
+VIX	VIX.2023-02-14.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	726	IV range: 10.0484 - 13.8945, avg: 10.9122
+VIX	VIX.2023-02-15.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	3	IV range: 214748.3646 - 214748.3646, avg: 214748.3646
+VIX	VIX.2023-03-20.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	2	IV range: 10.0053 - 10.0853, avg: 10.0453
+VIX	VIX.2023-03-21.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	1406	IV range: 10.0115 - 13.4976, avg: 11.2570
+VIX	VIX.2023-04-18.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	151	IV range: 10.0484 - 10.8359, avg: 10.3372
+VIX	VIX.2024-08-20.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	467	IV range: 10.0115 - 12.7923, avg: 10.6434
+VIX	VIX.2025-08-19.sqlite	option_minute	EXTREME_IMPLIED_VOLATILITY	1693	IV range: 10.0238 - 15.2463, avg: 11.4568

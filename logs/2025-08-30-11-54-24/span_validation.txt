@@ -1,0 +1,30 @@
+Timestamp Range Validation Report (Per RevisedPlan.md)
+Generated: 2025-08-30 11:54:26
+Checking for timestamps outside 2018-2030 range (no year 2080, no negative values)
+
+GLD:
+  Min timestamp: 1685957400000 (2023-06-05 09:30:00)
+  Max timestamp: 3372627600000 (2076-11-15 01:00:00)
+  ❌ INVALID: Max timestamp outside 2018-2030 range
+
+SPX:
+  Min timestamp: 1685957400000 (2023-06-05 09:30:00)
+  Max timestamp: 3372627600000 (2076-11-15 01:00:00)
+  ❌ INVALID: Max timestamp outside 2018-2030 range
+
+SPY:
+  Min timestamp: 1685957400000 (2023-06-05 09:30:00)
+  Max timestamp: 1686340740000 (2023-06-09 19:59:00)
+
+USO:
+  Min timestamp: 1685971800000 (2023-06-05 13:30:00)
+  Max timestamp: 3372627600000 (2076-11-15 01:00:00)
+  ❌ INVALID: Max timestamp outside 2018-2030 range
+
+VALIDATION SUMMARY:
+Total symbols analyzed: 4
+Issues found: 3
+❌ Timestamp validation FAILED - issues detected:
+  - GLD: Max timestamp 3372627600000 outside valid range 2018-2030
+  - SPX: Max timestamp 3372627600000 outside valid range 2018-2030
+  - USO: Max timestamp 3372627600000 outside valid range 2018-2030
