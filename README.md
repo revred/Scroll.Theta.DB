@@ -218,11 +218,32 @@ This repository is automatically maintained through:
 - **Git Integration**: Automatic commits with descriptive messages
 - **Health Monitoring**: Continuous quality score tracking
 
+## Repository Split and Organization
+
+The Stroll.Theta project is organized across two specialized repositories:
+
+### 🗂️ [Stroll.Theta.DB](https://github.com/revred/Stroll.Theta.DB) (This Repository)
+**Purpose**: Database files, logs, and data validation
+- **Contents**: SQLite database files, quality probe logs, CI workflows
+- **Directory**: `C:\code\Stroll.Theta.DB\`
+- **Focus**: Data storage, validation results, automated data integrity testing
+
+### ⚙️ [Stroll.Theta](https://github.com/revred/Stroll.Theta)  
+**Purpose**: Implementation code and data generation tools
+- **Contents**: C# projects, data collection orchestration, ThetaData integration
+- **Directory**: `C:\code\Stroll.Theta\`
+- **Focus**: Data generation, RefineDataset implementation, collection infrastructure
+
+### Integration
+- **Data Flow**: `Stroll.Theta` → generates data → commits to `Stroll.Theta.DB`
+- **CI/CD**: GitHub Actions in `Stroll.Theta.DB` validate data integrity
+- **Testing**: RefineDataset CLI tools in `Stroll.Theta` ensure quality gates
+
 ## Additional Documentation
 
 - **[FOLDER_STRUCTURE.md](FOLDER_STRUCTURE.md)**: Detailed directory organization and file naming conventions
-- **Repository**: https://github.com/revred/Stroll.Theta.DB
-- **Infrastructure Code**: https://github.com/revred/Stroll.Theta
+- **Implementation Code**: [github.com/revred/Stroll.Theta](https://github.com/revred/Stroll.Theta)
+- **Database Repository**: [github.com/revred/Stroll.Theta.DB](https://github.com/revred/Stroll.Theta.DB)
 
 **Last Updated**: August 31, 2025  
 **Collection Status**: Active (Aug 2025 → Jan 2018 backfill)  
