@@ -1,0 +1,161 @@
+name: Data Integrity Verification
+
+on:
+  push:
+    paths:
+      - 'days/**/*.sqlite'
+      - 'days/**/*.json'
+  pull_request:
+    paths:
+      - 'days/**/*.sqlite'
+      - 'days/**/*.json'
+
+jobs:
+  verify-data-integrity:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 2
+
+    - name: Install SQLite
+      run: sudo apt-get update && sudo apt-get install -y sqlite3
+
+    - name: Get changed files
+      id: changed-files
+      run: |
+        # Get list of changed SQLite files
+        CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '\.(sqlite|json)$' || true)
+        echo "Changed files: $CHANGED_FILES"
+        echo "files<<EOF" >> $GITHUB_OUTPUT
+        echo "$CHANGED_FILES" >> $GITHUB_OUTPUT
+        echo "EOF" >> $GITHUB_OUTPUT
+
+    - name: Verify SQLite integrity
+      run: |
+        EXIT_CODE=0
+        
+        while IFS= read -r file; do
+          if [[ "$file" == *.sqlite ]]; then
+            echo "🔍 Checking integrity of $file..."
+            
+            if [[ ! -f "$file" ]]; then
+              echo "❌ File not found: $file"
+              EXIT_CODE=1
+              continue
+            fi
+            
+            # Run integrity check
+            INTEGRITY=$(sqlite3 "$file" "PRAGMA integrity_check;" 2>/dev/null || echo "error")
+            
+            if [[ "$INTEGRITY" != "ok" ]]; then
+              echo "❌ Integrity check failed for $file: $INTEGRITY"
+              EXIT_CODE=1
+              continue
+            fi
+            
+            echo "✅ Integrity check passed for $file"
+            
+            # Check quality gates
+            echo "📊 Running quality gates for $file..."
+            
+            # Join ratio check
+            JOIN_RATIO=$(sqlite3 "$file" "
+              WITH o(n) AS (SELECT COUNT(*) FROM opt_nbbo_1m),
+                   j(n) AS (
+                       SELECT COUNT(*) FROM opt_nbbo_1m o
+                       JOIN index_1m i ON i.ts_utc = o.ts_utc AND i.root = o.root
+                   )
+              SELECT COALESCE(1.0 * j.n / NULLIF(o.n, 0), 0) AS join_ratio
+              FROM o, j;" 2>/dev/null || echo "0")
+            
+            # Option miss rate check
+            MISS_RATE=$(sqlite3 "$file" "
+              SELECT COALESCE(1.0 * SUM(CASE WHEN mid IS NULL OR bid > ask THEN 1 ELSE 0 END) / NULLIF(COUNT(*), 0), 0) AS option_miss_rate
+              FROM opt_nbbo_1m;" 2>/dev/null || echo "0")
+            
+            echo "  Join Ratio: $JOIN_RATIO (threshold: ≥0.85)"
+            echo "  Option Miss Rate: $MISS_RATE (threshold: ≤0.02)"
+            
+            # Validate thresholds
+            if (( $(echo "$JOIN_RATIO < 0.85" | bc -l) )); then
+              echo "❌ Join ratio below threshold: $JOIN_RATIO < 0.85"
+              EXIT_CODE=1
+            fi
+            
+            if (( $(echo "$MISS_RATE > 0.02" | bc -l) )); then
+              echo "❌ Option miss rate above threshold: $MISS_RATE > 0.02"
+              EXIT_CODE=1
+            fi
+            
+            if [[ $EXIT_CODE -eq 0 ]]; then
+              echo "✅ Quality gates passed for $file"
+            fi
+          fi
+        done <<< "${{ steps.changed-files.outputs.files }}"
+        
+        exit $EXIT_CODE
+
+    - name: Verify manifest files
+      run: |
+        EXIT_CODE=0
+        
+        while IFS= read -r file; do
+          if [[ "$file" == *manifest.json ]]; then
+            echo "📋 Checking manifest $file..."
+            
+            if [[ ! -f "$file" ]]; then
+              echo "❌ Manifest file not found: $file"
+              EXIT_CODE=1
+              continue
+            fi
+            
+            # Validate JSON format
+            if ! python3 -m json.tool "$file" > /dev/null 2>&1; then
+              echo "❌ Invalid JSON format in $file"
+              EXIT_CODE=1
+              continue
+            fi
+            
+            # Extract SQLite filename and verify SHA256
+            DIR=$(dirname "$file")
+            SQLITE_FILE=$(python3 -c "
+import json, sys
+with open('$file', 'r') as f:
+    data = json.load(f)
+    print(data['files']['sqlite'])
+" 2>/dev/null || echo "")
+            
+            if [[ -n "$SQLITE_FILE" && -f "$DIR/$SQLITE_FILE" ]]; then
+              EXPECTED_SHA256=$(python3 -c "
+import json
+with open('$file', 'r') as f:
+    data = json.load(f)
+    print(data['files']['sha256'])
+" 2>/dev/null || echo "")
+              
+              ACTUAL_SHA256=$(sha256sum "$DIR/$SQLITE_FILE" | cut -d' ' -f1)
+              
+              if [[ "$EXPECTED_SHA256" != "$ACTUAL_SHA256" ]]; then
+                echo "❌ SHA256 mismatch in $file:"
+                echo "  Expected: $EXPECTED_SHA256"
+                echo "  Actual: $ACTUAL_SHA256"
+                EXIT_CODE=1
+              else
+                echo "✅ SHA256 verified for $file"
+              fi
+            fi
+          fi
+        done <<< "${{ steps.changed-files.outputs.files }}"
+        
+        exit $EXIT_CODE
+
+    - name: Summary
+      run: |
+        if [[ $? -eq 0 ]]; then
+          echo "🎉 All data integrity checks passed!"
+        else
+          echo "❌ Data integrity checks failed. Please review the errors above."
+        fi
